@@ -1,5 +1,7 @@
 # OSGi Device Abstraction Layer Functions for Energy@Home
 
+**IMPORTANT NOTE**: this bundle has been deprecated in the transition towards jemma v1.0.0 and it's only kept for historical reasons. New developments have been moved to the [ismb/jemma.osgi.dal.functions.eh](https://github.com/ismb/jemma.osgi.dal.functions.eh) project.
+
 This bundle implements OSGi Device Abstraction Layer Functions for Energy@Home Jemma software
 
 ##License
