@@ -8,7 +8,7 @@
 	<groupId>org.energy-home</groupId>
 	<artifactId>jemma.osgi.dal.functions.eh</artifactId>
 	<packaging>bundle</packaging>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<name>Dal Classes Functions for Energy@home devices</name>
 
 	<properties>
@@ -74,6 +74,7 @@
 							 org.energy_home.dal.functions.data,
 							 org.energy_home.dal.functions.type
 						</Export-Package>
+						<Bundle-Category>JEMMA DAL</Bundle-Category>
 					</instructions>
 				</configuration>
 			</plugin>
