@@ -6,23 +6,21 @@ import org.osgi.service.dal.FunctionData;
 
 public class DoorLockData extends FunctionData {
 
-	public final static String STATUS_OPEN="OPEN";
-	public  final static String STATUS_CLOSED="CLOSED";
-	
+	public final static String STATUS_OPEN = "OPEN";
+	public final static String STATUS_CLOSED = "CLOSED";
+
 	private String status;
-	
+
 	public DoorLockData(long timestamp, Map metadata) {
 		super(timestamp, metadata);
 	}
-	
-	public DoorLockData(long timestamp, Map metadata, String status)
-	{
-		super(timestamp,metadata);
-		this.status=status;
+
+	public DoorLockData(long timestamp, Map metadata, String status) {
+		super(timestamp, metadata);
+		this.status = status;
 	}
-	
-	public String getStatus()
-	{
+
+	public String getStatus() {
 		return this.status;
 	}
 

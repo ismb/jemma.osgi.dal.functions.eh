@@ -5,5 +5,5 @@ public class PowerProfileConstraintsData {
 	public short PowerProfileID;
 	public int StartAfter;
 	public int StopBefore;
-	
+
 }
